@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="InB-01-PLJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="I0x-NM-iVe">
+            <objects>
+                <navigationController id="InB-01-PLJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gE3-DG-35A">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XMc-wU-Dzg" kind="relationship" relationship="rootViewController" id="B77-Zy-hha"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Grn-Y4-Fbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185" y="-70"/>
+        </scene>
+        <!--HOME-->
+        <scene sceneID="0NI-4b-MgP">
+            <objects>
+                <viewController id="XMc-wU-Dzg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9C7-nw-gUz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="masak" translatesAutoresizingMaskIntoConstraints="NO" id="rla-c9-Zbl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cB6-ep-mKB">
+                                <rect key="frame" x="16" y="145" width="251" height="30"/>
+                                <color key="backgroundColor" red="0.31495024822332945" green="0.32966728131213308" blue="0.33435120558375631" alpha="0.29048052226027399" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="3Fq-6B-u6V"/>
+                                    <constraint firstAttribute="height" constant="30" id="poZ-Cx-oi2"/>
+                                </constraints>
+                                <state key="normal" title="ayam geprek mozzarela">
+                                    <color key="titleColor" red="0.19302565224584747" green="0.19603339234050765" blue="0.20461215101522845" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xpJ-gd-m89" kind="show" id="Qwn-5Y-5xl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKm-YN-0ki">
+                                <rect key="frame" x="113" y="201" width="246" height="30"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FWr-6K-aUz"/>
+                                    <constraint firstAttribute="width" constant="246" id="pdi-Tz-iUT"/>
+                                </constraints>
+                                <state key="normal" title="balado daging sapi">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4yy-bj-fC6" kind="show" id="ftP-a3-LUm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIL-jx-mGc">
+                                <rect key="frame" x="9" y="247" width="251" height="30"/>
+                                <color key="backgroundColor" red="0.83321169629904546" green="0.87214611268253739" blue="0.88453759517766495" alpha="0.29048052226027399" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="Arp-E7-Vme"/>
+                                    <constraint firstAttribute="height" constant="30" id="ed7-nJ-tWP"/>
+                                </constraints>
+                                <state key="normal" title="spaghetti carbonara">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nT5-Cy-ma9" kind="show" id="tfW-uz-hfr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ne5-QS-JIg">
+                                <rect key="frame" x="113" y="306" width="246" height="30"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="TnQ-jg-5K5"/>
+                                    <constraint firstAttribute="height" constant="30" id="sfg-ou-uOE"/>
+                                </constraints>
+                                <state key="normal" title="pepproni cheese pasta">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ddG-lZ-YMY" kind="show" id="OxM-u2-M08"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KW-9a-5ig">
+                                <rect key="frame" x="16" y="405" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="more detail">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dKi-nn-anZ" kind="showDetail" id="sDY-Gc-Zxz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rla-c9-Zbl" firstAttribute="bottom" secondItem="bPy-jl-b9U" secondAttribute="bottom" id="01Q-D8-ZuC"/>
+                            <constraint firstItem="rla-c9-Zbl" firstAttribute="trailing" secondItem="bPy-jl-b9U" secondAttribute="trailing" id="1Zz-MA-eHa"/>
+                            <constraint firstItem="rla-c9-Zbl" firstAttribute="top" secondItem="bPy-jl-b9U" secondAttribute="top" id="5qW-fo-yds"/>
+                            <constraint firstItem="bPy-jl-b9U" firstAttribute="trailing" secondItem="rIL-jx-mGc" secondAttribute="trailing" constant="115" id="9hS-fe-mhI"/>
+                            <constraint firstItem="bPy-jl-b9U" firstAttribute="trailing" secondItem="cB6-ep-mKB" secondAttribute="trailing" constant="108" id="AVC-vi-oEP"/>
+                            <constraint firstItem="ne5-QS-JIg" firstAttribute="leading" secondItem="bPy-jl-b9U" secondAttribute="leading" constant="113" id="HVb-V5-a1N"/>
+                            <constraint firstItem="ne5-QS-JIg" firstAttribute="top" secondItem="cB6-ep-mKB" secondAttribute="bottom" constant="131" id="LX4-u6-jl5"/>
+                            <constraint firstItem="cB6-ep-mKB" firstAttribute="top" secondItem="bPy-jl-b9U" secondAttribute="top" constant="81" id="XFT-OK-uWx"/>
+                            <constraint firstItem="rIL-jx-mGc" firstAttribute="leading" secondItem="bPy-jl-b9U" secondAttribute="leading" constant="9" id="brY-Fs-ieE"/>
+                            <constraint firstItem="rIL-jx-mGc" firstAttribute="top" secondItem="cB6-ep-mKB" secondAttribute="bottom" constant="72" id="d0O-vm-JfC"/>
+                            <constraint firstItem="bPy-jl-b9U" firstAttribute="trailing" secondItem="ne5-QS-JIg" secondAttribute="trailing" constant="16" id="e8G-Ie-0dc"/>
+                            <constraint firstItem="cB6-ep-mKB" firstAttribute="leading" secondItem="bPy-jl-b9U" secondAttribute="leading" constant="16" id="eLA-kB-xCl"/>
+                            <constraint firstItem="eKm-YN-0ki" firstAttribute="top" secondItem="cB6-ep-mKB" secondAttribute="bottom" constant="26" id="efg-rK-6fY"/>
+                            <constraint firstItem="bPy-jl-b9U" firstAttribute="trailing" secondItem="eKm-YN-0ki" secondAttribute="trailing" constant="16" id="mIX-G7-cqq"/>
+                            <constraint firstItem="eKm-YN-0ki" firstAttribute="leading" secondItem="bPy-jl-b9U" secondAttribute="leading" constant="113" id="of8-Lq-8xg"/>
+                            <constraint firstItem="rla-c9-Zbl" firstAttribute="leading" secondItem="bPy-jl-b9U" secondAttribute="leading" id="s57-KE-EAE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bPy-jl-b9U"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HOME" id="yAZ-gK-4Eg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wut-6a-lEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184.80000000000001" y="662.51874062968523"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OeB-VG-ov8">
+            <objects>
+                <viewController id="xpJ-gd-m89" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wfG-Ir-LGz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="masak" translatesAutoresizingMaskIntoConstraints="NO" id="ZEh-YC-PnC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ayam geprek " translatesAutoresizingMaskIntoConstraints="NO" id="8FD-AH-nZI">
+                                <rect key="frame" x="16" y="79" width="343" height="259"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="O3t-iG-F8j"/>
+                                    <constraint firstAttribute="height" constant="259" id="PKf-xs-I65"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSI-mC-KGH">
+                                <rect key="frame" x="45" y="346" width="284" height="30"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OAQ-sw-EmC"/>
+                                    <constraint firstAttribute="width" constant="284" id="muZ-TR-lDg"/>
+                                </constraints>
+                                <state key="normal" title="ayam geprek mozzarela">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kej-UO-TDb">
+                                <rect key="frame" x="16" y="398" width="343" height="249"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="249" id="My6-Q7-XXD"/>
+                                    <constraint firstAttribute="width" constant="343" id="Yc5-gq-vFx"/>
+                                </constraints>
+                                <mutableString key="text">bahan - bahan
+
+
+
+* 250 gr ayam potong jadi 6 buah  
+* bawang putih bubuk  
+* adonan kering dan adonan basah :  
+* 8 sm tepung trigu  
+* 4 sm tepung beras  
+* 2 sm tepung maizena  
+* secukupnya bawang putih bubuk  
+* secukupnya air  
+* gula, garam, lada, kaldu bubuk  
+* sambal bawang :  
+* 3 siung bawang putih goreng sebentar  
+* 4 cabe merah  
+* 5 cabe rawit  
+* keju mozarella atau quickmelt pny kraf  
+* minyak utk menggoreng  
+	
+*  1. cuci bersih ayam, marinade dgn bawang putih bubuk, lada, garam, dan kaldu bubuk biar kan krng lbh 30 menit   2. tambahkan air sedikit krng lbh 10 sm, kemudian tuangkan tepung trigu, tepung beras, tepung maizena dan bawang putih bubuk yg sdh di campur terlebih dahulu, aduk rata sampai sprti adonan basah   3. masukan ayam yg sdh tercampur dgn adonan basah ke dalam tepung yang kering, gulingkan dgn tangan dan tiriskan, goreng dgn minyak bnyk dan kecilkan apinya supaya matangnya merata hingga matang 
+* 4. sambal : goreng bawang putih setengah matang, dan goreng jga cabe merah, dan cabe rawit tiriskan uleg kasar kasih gula, garam, kaldu bubuk   5. siapkan ayam yg sdh matang geprek dgn uleg an tambahkan d atas na sambal bawang dan keju moza   6. oven hingga leleh moza nya dan sajikan    
+
+*        
+</mutableString>
+                                <color key="textColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kej-UO-TDb" firstAttribute="leading" secondItem="pVh-Gf-u31" secondAttribute="leading" constant="16" id="35O-R4-GP7"/>
+                            <constraint firstItem="ZEh-YC-PnC" firstAttribute="top" secondItem="wfG-Ir-LGz" secondAttribute="top" id="58L-LF-jiu"/>
+                            <constraint firstItem="ZEh-YC-PnC" firstAttribute="bottom" secondItem="pVh-Gf-u31" secondAttribute="bottom" id="7P3-JR-Qp4"/>
+                            <constraint firstItem="pVh-Gf-u31" firstAttribute="trailing" secondItem="kej-UO-TDb" secondAttribute="trailing" constant="16" id="HAS-Eu-b6m"/>
+                            <constraint firstItem="8FD-AH-nZI" firstAttribute="leading" secondItem="pVh-Gf-u31" secondAttribute="leading" constant="16" id="KDR-It-pKY"/>
+                            <constraint firstItem="ZEh-YC-PnC" firstAttribute="trailing" secondItem="pVh-Gf-u31" secondAttribute="trailing" id="SkL-mv-gWt"/>
+                            <constraint firstItem="pVh-Gf-u31" firstAttribute="trailing" secondItem="8FD-AH-nZI" secondAttribute="trailing" constant="16" id="U5u-rw-fmm"/>
+                            <constraint firstItem="ZEh-YC-PnC" firstAttribute="leading" secondItem="pVh-Gf-u31" secondAttribute="leading" id="Ytp-bF-dZn"/>
+                            <constraint firstItem="pVh-Gf-u31" firstAttribute="bottom" secondItem="kej-UO-TDb" secondAttribute="bottom" constant="20" id="bI9-vZ-RfP"/>
+                            <constraint firstItem="pSI-mC-KGH" firstAttribute="leading" secondItem="pVh-Gf-u31" secondAttribute="leading" constant="45" id="dKn-mk-2Cs"/>
+                            <constraint firstItem="pVh-Gf-u31" firstAttribute="trailing" secondItem="pSI-mC-KGH" secondAttribute="trailing" constant="46" id="th4-pi-WQd"/>
+                            <constraint firstItem="pSI-mC-KGH" firstAttribute="top" secondItem="8FD-AH-nZI" secondAttribute="bottom" constant="8" id="uWL-6B-hnF"/>
+                            <constraint firstItem="8FD-AH-nZI" firstAttribute="top" secondItem="pVh-Gf-u31" secondAttribute="top" constant="15" id="vtZ-40-g8p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pVh-Gf-u31"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R3L-0n-1mW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="662.51874062968523"/>
+        </scene>
+        <!--Moredetail View Controller-->
+        <scene sceneID="tjC-qd-Vry">
+            <objects>
+                <viewController id="dKi-nn-anZ" customClass="moredetailViewController" customModule="RESEP_MASAK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jxa-ns-dZo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSc-gv-wjM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MSc-gv-wjM" firstAttribute="leading" secondItem="vz6-1d-WE8" secondAttribute="leading" id="Z6G-79-DLi"/>
+                            <constraint firstItem="MSc-gv-wjM" firstAttribute="bottom" secondItem="vz6-1d-WE8" secondAttribute="bottom" id="cNJ-2i-Na8"/>
+                            <constraint firstItem="MSc-gv-wjM" firstAttribute="top" secondItem="jxa-ns-dZo" secondAttribute="top" id="gai-7I-zme"/>
+                            <constraint firstItem="MSc-gv-wjM" firstAttribute="trailing" secondItem="vz6-1d-WE8" secondAttribute="trailing" id="l46-Sh-OPu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vz6-1d-WE8"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="MSc-gv-wjM" id="5HH-pr-o7i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PIN-08-690" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184.80000000000001" y="1359.6701649175413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="isx-iP-qnm">
+            <objects>
+                <viewController id="4yy-bj-fC6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JU6-SL-7gz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="masak" translatesAutoresizingMaskIntoConstraints="NO" id="J0V-BP-CiC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="BZt-Dg-i4I"/>
+                                    <constraint firstAttribute="width" constant="375" id="NEd-BY-n9m"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balado daging sapi" translatesAutoresizingMaskIntoConstraints="NO" id="bqW-qv-wWk">
+                                <rect key="frame" x="16" y="78" width="343" height="260"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="260" id="bib-oZ-ag5"/>
+                                    <constraint firstAttribute="width" constant="343" id="odd-06-omC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ts-QE-b3e">
+                                <rect key="frame" x="45" y="346" width="284" height="30"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="ZOh-c1-gKx"/>
+                                    <constraint firstAttribute="height" constant="30" id="md2-jK-SYC"/>
+                                </constraints>
+                                <state key="normal" title="balado daging sapi">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PvB-Yz-k1y">
+                                <rect key="frame" x="16" y="384" width="343" height="263"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="263" id="30D-Hx-kHM"/>
+                                    <constraint firstAttribute="width" constant="343" id="GNx-69-TYq"/>
+                                </constraints>
+                                <mutableString key="text">bahan - bahan
+
+
+
+* 1/2 kg daging sapi  
+* 6 btr Bawang merah  
+* 3 btr Bawang putih  
+* 1 Sdm ketumbar  
+* 1 bh Tomat  
+* 1/4 cabe merah keriting  
+* Sedikit merica  
+* Garam  
+* Royco  
+	
+* 	.	Cuci bersih daging sapi yang dipotong dadu        
+* Haluskan bumbu untuk merebus daging (bawang merah, bawang putih, ketumbar, merica, garam, Royco)        
+* Setelah bumbu halus, rebus daging bersama bumbu, tunggu daging hingga empuk        
+* Sementara daging direbus, siapkan bumbu balado        
+* Haluskan bawang merah+ bawang putih+ cabe merah keriting+tomat        
+* Setelah daging empuk, tiriskan. Lalu goreng.        
+* Setelah daging matang, tumis bumbu balado. Masak hingga matang        
+* Campurkan daging dengan bbu balado        
+* Balado daging siap di sajikan        
+* Selamat mencoba !!        
+</mutableString>
+                                <color key="textColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bqW-qv-wWk" firstAttribute="top" secondItem="BSB-ec-FMP" secondAttribute="top" constant="14" id="0OM-cN-YUY"/>
+                            <constraint firstItem="bqW-qv-wWk" firstAttribute="leading" secondItem="BSB-ec-FMP" secondAttribute="leading" constant="16" id="6Sc-Tf-79l"/>
+                            <constraint firstItem="J0V-BP-CiC" firstAttribute="leading" secondItem="BSB-ec-FMP" secondAttribute="leading" id="BBh-sI-MIh"/>
+                            <constraint firstItem="BSB-ec-FMP" firstAttribute="trailing" secondItem="4ts-QE-b3e" secondAttribute="trailing" constant="46" id="HxF-Kr-Yx9"/>
+                            <constraint firstItem="J0V-BP-CiC" firstAttribute="top" secondItem="JU6-SL-7gz" secondAttribute="top" id="Wse-8a-kAe"/>
+                            <constraint firstItem="PvB-Yz-k1y" firstAttribute="leading" secondItem="BSB-ec-FMP" secondAttribute="leading" constant="16" id="ZE2-cX-Cx1"/>
+                            <constraint firstItem="4ts-QE-b3e" firstAttribute="top" secondItem="bqW-qv-wWk" secondAttribute="bottom" constant="8" id="gee-wR-rs8"/>
+                            <constraint firstItem="BSB-ec-FMP" firstAttribute="trailing" secondItem="PvB-Yz-k1y" secondAttribute="trailing" constant="16" id="hqT-Hc-NYT"/>
+                            <constraint firstItem="4ts-QE-b3e" firstAttribute="leading" secondItem="BSB-ec-FMP" secondAttribute="leading" constant="45" id="qVp-2d-7Gh"/>
+                            <constraint firstItem="J0V-BP-CiC" firstAttribute="bottom" secondItem="BSB-ec-FMP" secondAttribute="bottom" id="qYb-DS-SIy"/>
+                            <constraint firstItem="BSB-ec-FMP" firstAttribute="bottom" secondItem="PvB-Yz-k1y" secondAttribute="bottom" constant="20" id="uEu-9t-jjw"/>
+                            <constraint firstItem="J0V-BP-CiC" firstAttribute="trailing" secondItem="BSB-ec-FMP" secondAttribute="trailing" id="v1n-UV-lia"/>
+                            <constraint firstItem="BSB-ec-FMP" firstAttribute="trailing" secondItem="bqW-qv-wWk" secondAttribute="trailing" constant="16" id="vxR-GU-9lc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BSB-ec-FMP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q95-Ve-UiK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1568.8" y="662.51874062968523"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RpN-hN-i2b">
+            <objects>
+                <viewController id="nT5-Cy-ma9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uQO-79-Nn6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="masak" translatesAutoresizingMaskIntoConstraints="NO" id="vVN-Jc-d3V">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="TVg-98-anR"/>
+                                    <constraint firstAttribute="width" constant="375" id="mqN-Sh-Cdo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spageti" translatesAutoresizingMaskIntoConstraints="NO" id="xrB-iD-tIY">
+                                <rect key="frame" x="16" y="78" width="343" height="251"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Lf5-BS-Hka"/>
+                                    <constraint firstAttribute="height" constant="251" id="zyh-vR-s6T"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lj-x7-i8h">
+                                <rect key="frame" x="45" y="337" width="284" height="30"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="M90-LU-9oB"/>
+                                    <constraint firstAttribute="height" constant="30" id="hBh-CC-i1y"/>
+                                </constraints>
+                                <state key="normal" title="spaghetti carbonara">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s8c-G5-deK">
+                                <rect key="frame" x="16" y="375" width="343" height="272"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="272" id="RrE-bh-LMQ"/>
+                                    <constraint firstAttribute="width" constant="343" id="phs-4g-Hpg"/>
+                                </constraints>
+                                <mutableString key="text">Bahan-bahan
+		Spaghetti - 200 gram
+		Susu cair - 200 ml
+	        Butter / margarin - 1 sdm	
+                Bawang putih, cincang - 2 siung
+		Bawang bombay, cincang - 1/2 butir
+		Smoke beef, iris tipis - 2 lembar
+		Telur, kocok lepas - 1 butir
+		Keju cheddar, parut - 50 gram
+		Lada bubuk - 1/2 sdt
+		Oregano - 1/2 sdt
+		Garam - 1/2 sdt
+		Maizena, larutkan dengan sedikit air - 1/2 sdt
+		Taburan:
+		Keju cheddar, parut - secukupnya
+		Daun parsley - secukupnya
+
+angkah
+	.	Dalam panci,, rebus spaghetti sampai aldente. Angkat dan tiriskan. Sisihkan.
+	.	Tumis bawang putih dan bombay dengan margarin sampai harum.
+	.	Masukkan smoke beef. Aduk rata.
+	.	Tuang ⅔ bagian susu cair. Aduk rata.
+	.	Masukkan keju, lada, oregano, garam, dan garam. Aduk rata. Koreksi rasanya.
+	.	Tuang larutan maizena. Aduk rata.
+	.	Masukkan spaghetti. Aduk rata.
+	.	Tuang kocokan telur dan sisa susu cair. Aduk dan masak sebentar dengan api kecil hingga kuah jadi creamy. Angkat.
+	.	Siap disajikan dengan taburan keju parut dan parsley.
+Tips
+	.	Rebus pasta pakai Maspin Maslon Deep Fryer (Lihat di Lazada) agar tekstur pasta matang merata. Body Maspion Maslon Deep Fryer terbuat dari bahan aluminium berlapiskan teflon yang anti lengket. Makanya, selain menggoreng bisa juga digunakan untuk merebus. Tutupnya juga full terbuat dari kaca transparan, mudahkan anda saat pantau kematangan masakan. 
+	.	  
+	.	Untuk hasil pasta yang creamy, cukup masak sebentar saja setelah kocokan telur masuk. Telur akan berubah jadi bergerindil jika dimasak terlalu lama.</mutableString>
+                                <color key="textColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4XV-qI-YLY" firstAttribute="bottom" secondItem="s8c-G5-deK" secondAttribute="bottom" constant="20" id="4AL-yV-SkJ"/>
+                            <constraint firstItem="xrB-iD-tIY" firstAttribute="top" secondItem="4XV-qI-YLY" secondAttribute="top" constant="14" id="7MV-PI-3d9"/>
+                            <constraint firstItem="4XV-qI-YLY" firstAttribute="trailing" secondItem="xrB-iD-tIY" secondAttribute="trailing" constant="16" id="Ccu-Qf-3RC"/>
+                            <constraint firstItem="3Lj-x7-i8h" firstAttribute="leading" secondItem="4XV-qI-YLY" secondAttribute="leading" constant="45" id="OO7-ft-t7T"/>
+                            <constraint firstItem="4XV-qI-YLY" firstAttribute="trailing" secondItem="3Lj-x7-i8h" secondAttribute="trailing" constant="46" id="Pfq-3j-mIE"/>
+                            <constraint firstItem="xrB-iD-tIY" firstAttribute="leading" secondItem="4XV-qI-YLY" secondAttribute="leading" constant="16" id="RcO-Gg-8g2"/>
+                            <constraint firstItem="3Lj-x7-i8h" firstAttribute="top" secondItem="xrB-iD-tIY" secondAttribute="bottom" constant="8" id="UYg-Ax-YgF"/>
+                            <constraint firstItem="vVN-Jc-d3V" firstAttribute="trailing" secondItem="4XV-qI-YLY" secondAttribute="trailing" id="VAo-i2-OPa"/>
+                            <constraint firstItem="vVN-Jc-d3V" firstAttribute="top" secondItem="uQO-79-Nn6" secondAttribute="top" id="WpP-E5-eAl"/>
+                            <constraint firstItem="vVN-Jc-d3V" firstAttribute="bottom" secondItem="4XV-qI-YLY" secondAttribute="bottom" id="XJh-5w-tfs"/>
+                            <constraint firstItem="s8c-G5-deK" firstAttribute="leading" secondItem="4XV-qI-YLY" secondAttribute="leading" constant="16" id="dTi-uM-YC8"/>
+                            <constraint firstItem="4XV-qI-YLY" firstAttribute="trailing" secondItem="s8c-G5-deK" secondAttribute="trailing" constant="16" id="s3L-PB-DRE"/>
+                            <constraint firstItem="vVN-Jc-d3V" firstAttribute="leading" secondItem="4XV-qI-YLY" secondAttribute="leading" id="tic-41-2IZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4XV-qI-YLY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7X-wP-751" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2208.8000000000002" y="662.51874062968523"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0uq-Ze-MI2">
+            <objects>
+                <viewController id="ddG-lZ-YMY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mdz-R4-d3Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="masak" translatesAutoresizingMaskIntoConstraints="NO" id="0vL-0L-6wF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="1IW-lW-bTa"/>
+                                    <constraint firstAttribute="width" constant="375" id="65C-wU-nW7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="papproni" translatesAutoresizingMaskIntoConstraints="NO" id="d0L-Pe-7eI">
+                                <rect key="frame" x="8" y="74" width="359" height="259"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="259" id="2S7-LX-VbH"/>
+                                    <constraint firstAttribute="width" constant="359" id="mBu-r8-T4d"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3Z-ru-G5V">
+                                <rect key="frame" x="45" y="341" width="284" height="30"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="EvW-2G-YBX"/>
+                                    <constraint firstAttribute="height" constant="30" id="Fjc-iN-hGs"/>
+                                </constraints>
+                                <state key="normal" title="pepproni chesse pasta">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lr5-H2-5Pw">
+                                <rect key="frame" x="16" y="379" width="343" height="268"/>
+                                <color key="backgroundColor" red="0.3149502482" green="0.3296672813" blue="0.33435120559999998" alpha="0.29048052229999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="268" id="D8J-CK-OX0"/>
+                                    <constraint firstAttribute="width" constant="343" id="f9a-oL-xef"/>
+                                </constraints>
+                                <mutableString key="text">bahan - bahan
+
+
+
+* 1 bh bawang bombay,iris  
+* 4 siung bawang putih,iris  
+* secukupnya daging giling/kornet  
+* 3 sdm blueband  
+* 300 gr pasta fusili(makruni keriting)  
+* 2 kotak susu uht plain 200ml  
+* 200 ml air hangat(untuk campuran susu)&amp;1liter air (untuk merebus makruni)  
+* 1/2 sdt ladaku  
+* 1/2 sdt gula  
+* 1 sdt garam  
+* secukupnya keju parut  
+* secukupnya cheesy melt  
+	
+* 	.	Rebus fusili dalam air mendidih+1sdm minyak +1sdt garam.rebus sampai setengah matang saja.        
+* Tumis blueband.bawang putih &amp; bawang bombay.sampai harum.masukkan daging giling/kornet.aduk sampai matang fusilli.+garam+gula pasir+lada.tambahkan air hangat +susu sedikit demi sedikit.aduk sampai mengental    
+￼
+*        
+* Kalau air sudah hampir habis.dan matang sempurna taburkan lada hitam bubuk.keju parut &amp; keju quick melt.kukus 15menit.angkat &amp; sajikan    
+￼
+*        
+*     
+￼
+*        
+</mutableString>
+                                <color key="textColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0vL-0L-6wF" firstAttribute="trailing" secondItem="6ds-yH-ivk" secondAttribute="trailing" id="2Xr-Jf-aMP"/>
+                            <constraint firstItem="0vL-0L-6wF" firstAttribute="top" secondItem="Mdz-R4-d3Z" secondAttribute="top" id="3gK-zo-CGP"/>
+                            <constraint firstItem="0vL-0L-6wF" firstAttribute="leading" secondItem="6ds-yH-ivk" secondAttribute="leading" id="7dE-yD-cBf"/>
+                            <constraint firstItem="0vL-0L-6wF" firstAttribute="bottom" secondItem="6ds-yH-ivk" secondAttribute="bottom" id="AfG-CS-YuM"/>
+                            <constraint firstItem="6ds-yH-ivk" firstAttribute="trailing" secondItem="d0L-Pe-7eI" secondAttribute="trailing" constant="8" id="EmL-R5-OEM"/>
+                            <constraint firstItem="6ds-yH-ivk" firstAttribute="bottom" secondItem="Lr5-H2-5Pw" secondAttribute="bottom" constant="20" id="OlK-h6-jbO"/>
+                            <constraint firstItem="6ds-yH-ivk" firstAttribute="trailing" secondItem="e3Z-ru-G5V" secondAttribute="trailing" constant="46" id="P6R-9L-SgH"/>
+                            <constraint firstItem="Lr5-H2-5Pw" firstAttribute="leading" secondItem="6ds-yH-ivk" secondAttribute="leading" constant="16" id="WlJ-pU-sL0"/>
+                            <constraint firstItem="e3Z-ru-G5V" firstAttribute="leading" secondItem="6ds-yH-ivk" secondAttribute="leading" constant="45" id="Yg6-iK-p0Z"/>
+                            <constraint firstItem="d0L-Pe-7eI" firstAttribute="leading" secondItem="6ds-yH-ivk" secondAttribute="leading" constant="8" id="eaS-kr-kuv"/>
+                            <constraint firstItem="e3Z-ru-G5V" firstAttribute="top" secondItem="d0L-Pe-7eI" secondAttribute="bottom" constant="8" id="fB2-iy-yWf"/>
+                            <constraint firstItem="6ds-yH-ivk" firstAttribute="trailing" secondItem="Lr5-H2-5Pw" secondAttribute="trailing" constant="16" id="jEs-VB-Wha"/>
+                            <constraint firstItem="d0L-Pe-7eI" firstAttribute="top" secondItem="6ds-yH-ivk" secondAttribute="top" constant="10" id="yha-XT-JU5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6ds-yH-ivk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zS6-Tg-Wjd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2856.8000000000002" y="662.51874062968523"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ayam geprek " width="670" height="670"/>
+        <image name="balado daging sapi" width="1600" height="1067"/>
+        <image name="masak" width="260" height="194"/>
+        <image name="papproni" width="640" height="955"/>
+        <image name="spageti" width="500" height="333"/>
+    </resources>
+</document>

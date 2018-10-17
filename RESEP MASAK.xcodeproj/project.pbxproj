@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494A6FAF2177120B00901972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A6FAE2177120B00901972 /* AppDelegate.swift */; };
+		494A6FB12177120B00901972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A6FB02177120B00901972 /* ViewController.swift */; };
+		494A6FB42177120B00901972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494A6FB22177120B00901972 /* Main.storyboard */; };
+		494A6FB62177120C00901972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494A6FB52177120C00901972 /* Assets.xcassets */; };
+		494A6FB92177120C00901972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494A6FB72177120C00901972 /* LaunchScreen.storyboard */; };
+		494A6FC42177120C00901972 /* RESEP_MASAKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A6FC32177120C00901972 /* RESEP_MASAKTests.swift */; };
+		494A6FCF2177120C00901972 /* RESEP_MASAKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A6FCE2177120C00901972 /* RESEP_MASAKUITests.swift */; };
+		494A6FDD2177246B00901972 /* moredetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494A6FDC2177246B00901972 /* moredetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		494A6FC02177120C00901972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494A6FA32177120B00901972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494A6FAA2177120B00901972;
+			remoteInfo = "RESEP MASAK";
+		};
+		494A6FCB2177120C00901972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494A6FA32177120B00901972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494A6FAA2177120B00901972;
+			remoteInfo = "RESEP MASAK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		494A6FAB2177120B00901972 /* RESEP MASAK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RESEP MASAK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494A6FAE2177120B00901972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		494A6FB02177120B00901972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		494A6FB32177120B00901972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494A6FB52177120C00901972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494A6FB82177120C00901972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494A6FBA2177120C00901972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494A6FBF2177120C00901972 /* RESEP MASAKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RESEP MASAKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494A6FC32177120C00901972 /* RESEP_MASAKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESEP_MASAKTests.swift; sourceTree = "<group>"; };
+		494A6FC52177120C00901972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494A6FCA2177120C00901972 /* RESEP MASAKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RESEP MASAKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494A6FCE2177120C00901972 /* RESEP_MASAKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESEP_MASAKUITests.swift; sourceTree = "<group>"; };
+		494A6FD02177120C00901972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494A6FDC2177246B00901972 /* moredetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moredetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494A6FA82177120B00901972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494A6FBC2177120C00901972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494A6FC72177120C00901972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494A6FA22177120B00901972 = {
+			isa = PBXGroup;
+			children = (
+				494A6FAD2177120B00901972 /* RESEP MASAK */,
+				494A6FC22177120C00901972 /* RESEP MASAKTests */,
+				494A6FCD2177120C00901972 /* RESEP MASAKUITests */,
+				494A6FAC2177120B00901972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494A6FAC2177120B00901972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494A6FAB2177120B00901972 /* RESEP MASAK.app */,
+				494A6FBF2177120C00901972 /* RESEP MASAKTests.xctest */,
+				494A6FCA2177120C00901972 /* RESEP MASAKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494A6FAD2177120B00901972 /* RESEP MASAK */ = {
+			isa = PBXGroup;
+			children = (
+				494A6FAE2177120B00901972 /* AppDelegate.swift */,
+				494A6FB02177120B00901972 /* ViewController.swift */,
+				494A6FB22177120B00901972 /* Main.storyboard */,
+				494A6FDC2177246B00901972 /* moredetailViewController.swift */,
+				494A6FB52177120C00901972 /* Assets.xcassets */,
+				494A6FB72177120C00901972 /* LaunchScreen.storyboard */,
+				494A6FBA2177120C00901972 /* Info.plist */,
+			);
+			path = "RESEP MASAK";
+			sourceTree = "<group>";
+		};
+		494A6FC22177120C00901972 /* RESEP MASAKTests */ = {
+			isa = PBXGroup;
+			children = (
+				494A6FC32177120C00901972 /* RESEP_MASAKTests.swift */,
+				494A6FC52177120C00901972 /* Info.plist */,
+			);
+			path = "RESEP MASAKTests";
+			sourceTree = "<group>";
+		};
+		494A6FCD2177120C00901972 /* RESEP MASAKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				494A6FCE2177120C00901972 /* RESEP_MASAKUITests.swift */,
+				494A6FD02177120C00901972 /* Info.plist */,
+			);
+			path = "RESEP MASAKUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494A6FAA2177120B00901972 /* RESEP MASAK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494A6FD32177120C00901972 /* Build configuration list for PBXNativeTarget "RESEP MASAK" */;
+			buildPhases = (
+				494A6FA72177120B00901972 /* Sources */,
+				494A6FA82177120B00901972 /* Frameworks */,
+				494A6FA92177120B00901972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RESEP MASAK";
+			productName = "RESEP MASAK";
+			productReference = 494A6FAB2177120B00901972 /* RESEP MASAK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494A6FBE2177120C00901972 /* RESEP MASAKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494A6FD62177120C00901972 /* Build configuration list for PBXNativeTarget "RESEP MASAKTests" */;
+			buildPhases = (
+				494A6FBB2177120C00901972 /* Sources */,
+				494A6FBC2177120C00901972 /* Frameworks */,
+				494A6FBD2177120C00901972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494A6FC12177120C00901972 /* PBXTargetDependency */,
+			);
+			name = "RESEP MASAKTests";
+			productName = "RESEP MASAKTests";
+			productReference = 494A6FBF2177120C00901972 /* RESEP MASAKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		494A6FC92177120C00901972 /* RESEP MASAKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494A6FD92177120C00901972 /* Build configuration list for PBXNativeTarget "RESEP MASAKUITests" */;
+			buildPhases = (
+				494A6FC62177120C00901972 /* Sources */,
+				494A6FC72177120C00901972 /* Frameworks */,
+				494A6FC82177120C00901972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494A6FCC2177120C00901972 /* PBXTargetDependency */,
+			);
+			name = "RESEP MASAKUITests";
+			productName = "RESEP MASAKUITests";
+			productReference = 494A6FCA2177120C00901972 /* RESEP MASAKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494A6FA32177120B00901972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = habdev;
+				TargetAttributes = {
+					494A6FAA2177120B00901972 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					494A6FBE2177120C00901972 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 494A6FAA2177120B00901972;
+					};
+					494A6FC92177120C00901972 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 494A6FAA2177120B00901972;
+					};
+				};
+			};
+			buildConfigurationList = 494A6FA62177120B00901972 /* Build configuration list for PBXProject "RESEP MASAK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494A6FA22177120B00901972;
+			productRefGroup = 494A6FAC2177120B00901972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494A6FAA2177120B00901972 /* RESEP MASAK */,
+				494A6FBE2177120C00901972 /* RESEP MASAKTests */,
+				494A6FC92177120C00901972 /* RESEP MASAKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494A6FA92177120B00901972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494A6FB92177120C00901972 /* LaunchScreen.storyboard in Resources */,
+				494A6FB62177120C00901972 /* Assets.xcassets in Resources */,
+				494A6FB42177120B00901972 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494A6FBD2177120C00901972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494A6FC82177120C00901972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494A6FA72177120B00901972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494A6FB12177120B00901972 /* ViewController.swift in Sources */,
+				494A6FDD2177246B00901972 /* moredetailViewController.swift in Sources */,
+				494A6FAF2177120B00901972 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494A6FBB2177120C00901972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494A6FC42177120C00901972 /* RESEP_MASAKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494A6FC62177120C00901972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494A6FCF2177120C00901972 /* RESEP_MASAKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494A6FC12177120C00901972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494A6FAA2177120B00901972 /* RESEP MASAK */;
+			targetProxy = 494A6FC02177120C00901972 /* PBXContainerItemProxy */;
+		};
+		494A6FCC2177120C00901972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494A6FAA2177120B00901972 /* RESEP MASAK */;
+			targetProxy = 494A6FCB2177120C00901972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		494A6FB22177120B00901972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494A6FB32177120B00901972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494A6FB72177120C00901972 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494A6FB82177120C00901972 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494A6FD12177120C00901972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		494A6FD22177120C00901972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494A6FD42177120C00901972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RESEP MASAK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.RESEP-MASAK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		494A6FD52177120C00901972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RESEP MASAK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.RESEP-MASAK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		494A6FD72177120C00901972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RESEP MASAKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.RESEP-MASAKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESEP MASAK.app/RESEP MASAK";
+			};
+			name = Debug;
+		};
+		494A6FD82177120C00901972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RESEP MASAKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.RESEP-MASAKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESEP MASAK.app/RESEP MASAK";
+			};
+			name = Release;
+		};
+		494A6FDA2177120C00901972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RESEP MASAKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.RESEP-MASAKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RESEP MASAK";
+			};
+			name = Debug;
+		};
+		494A6FDB2177120C00901972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RESEP MASAKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.RESEP-MASAKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RESEP MASAK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494A6FA62177120B00901972 /* Build configuration list for PBXProject "RESEP MASAK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494A6FD12177120C00901972 /* Debug */,
+				494A6FD22177120C00901972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494A6FD32177120C00901972 /* Build configuration list for PBXNativeTarget "RESEP MASAK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494A6FD42177120C00901972 /* Debug */,
+				494A6FD52177120C00901972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494A6FD62177120C00901972 /* Build configuration list for PBXNativeTarget "RESEP MASAKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494A6FD72177120C00901972 /* Debug */,
+				494A6FD82177120C00901972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494A6FD92177120C00901972 /* Build configuration list for PBXNativeTarget "RESEP MASAKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494A6FDA2177120C00901972 /* Debug */,
+				494A6FDB2177120C00901972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494A6FA32177120B00901972 /* Project object */;
+}
